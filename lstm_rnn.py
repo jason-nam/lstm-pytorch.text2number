@@ -9,7 +9,7 @@ import pandas as pd
 SOS_token = 0
 EOS_token = 1
 
-PATH = './data/rnn/'
+PATH = './data/model/rnn/'
 
 class Tokenizer:
     def __init__(self):
