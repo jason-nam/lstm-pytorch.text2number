@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61506988ac1e515bae899765",
+    "recordedDate": "20210926",
+    "recordedStart": "21:37:31",
+    "fileName": "단위_21379_남자_40대_수도권_수도권_일반_휴대폰마이크_61506988ac1e515bae899765.wav",
+    "filePath": "WAV/단위/용량-cc-ml/21379",
+    "recordedTime": 7.99,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "21379",
+    "scriptITN": "중구는 행정 복지 센터에서 아이스팩 1개와 3L 종량제 봉투 1장을 교환해 주는 시스템을 만들었다.",
+    "scriptTN": "중구는 행정 복지 센터에서 아이스팩 [한 개]와 [삼 리터] 종량제 봉투 [한 장]을 교환해 주는 시스템을 만들었다.",
+    "scriptNumberWord": "1개; 3L; 1장",
+    "patternTheme": "용량(cc,ml)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d527892a554e0889042c15",
+    "sex": "남자",
+    "generation": "40대",
+    "residence": "수도권",
+    "dialect": "아니오",
+    "dialectRegion": "수도권",
+    "areaInfomation": {
+      "fatherHometown": "수도권",
+      "motherHometown": "전라"
+    }
+  }
+}

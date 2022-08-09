@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61a793239591560ca8d7d109",
+    "recordedDate": "20211202",
+    "recordedStart": "00:22:14",
+    "fileName": "개인고유번호_100601_남자_20대_충청_충청_클린_휴대폰마이크_61a793239591560ca8d7d109.wav",
+    "filePath": "WAV/개인고유번호/비밀번호/100601",
+    "recordedTime": 6.82,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "애플",
+    "recordedEnv": "클린"
+  },
+  "script": {
+    "scriptId": "100601",
+    "scriptITN": "다인이는 2학기에 배정받은 사물함에 비밀번호가 1111인 자물쇠를 걸어두었다.",
+    "scriptTN": "다인이는 [이 학기]에 배정받은 사물함에 비밀번호가 [일 일 일 일]인 자물쇠를 걸어두었다.",
+    "scriptNumberWord": "2학기; 1111",
+    "patternTheme": "비밀번호(4자리)/PIN번호(6자리)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278b2a554e08890431ed",
+    "sex": "남자",
+    "generation": "20대",
+    "residence": "충청",
+    "dialect": "아니오",
+    "dialectRegion": "충청",
+    "areaInfomation": {
+      "fatherHometown": "충청",
+      "motherHometown": "충청"
+    }
+  }
+}

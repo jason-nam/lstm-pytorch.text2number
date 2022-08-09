@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "614306bfcc6acd8dd2accb52",
+    "recordedDate": "20210916",
+    "recordedStart": "17:56:31",
+    "fileName": "스포츠_29570_여자_40대_충청_충청_일반_유선마이크_614306bfcc6acd8dd2accb52.wav",
+    "filePath": "WAV/스포츠/타율/29570",
+    "recordedTime": 7.76,
+    "recordedQuality": "정상",
+    "recordedDevice": "유선 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "29570",
+    "scriptITN": "가을야구만 열리면 유난히 작아지는 박건우는 올해도 포스트시즌에서 타율 0.143를 기록하고 있다.",
+    "scriptTN": "가을야구만 열리면 유난히 작아지는 박건우는 올해도 포스트시즌에서 타율 [일할 사푼 삼리]를 기록하고 있다.",
+    "scriptNumberWord": "0.143",
+    "patternTheme": "타율"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d527892a554e0889042cfa",
+    "sex": "여자",
+    "generation": "40대",
+    "residence": "충청",
+    "dialect": "아니오",
+    "dialectRegion": "충청",
+    "areaInfomation": {
+      "fatherHometown": "경상",
+      "motherHometown": "수도권"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61a560e407c0c4f1217d4c91",
+    "recordedDate": "20211130",
+    "recordedStart": "08:23:17",
+    "fileName": "금융-은행_117484_여자_50대_전라_전라_일반_휴대폰마이크_61a560e407c0c4f1217d4c91.wav",
+    "filePath": "WAV/금융-은행/카드번호-혼합/117484",
+    "recordedTime": 10.14,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "117484",
+    "scriptITN": "하나카드 0099 9181 6341 9739의 결제 대금은 10월 24일 일요일 다음 날에 인출됐다.",
+    "scriptTN": "하나카드 [공 공 구 구 구 하나 팔 하나 육 삼 사 하나 구 칠 삼 구]의 결제 대금은 [시 월 이십 사 일] 일요일 다음 날에 인출됐다.",
+    "scriptNumberWord": "0099 9181 6341 9739; 10월 24일",
+    "patternTheme": "카드번호(혼합)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278c2a554e0889043461",
+    "sex": "여자",
+    "generation": "50대",
+    "residence": "전라",
+    "dialect": "아니오",
+    "dialectRegion": "전라",
+    "areaInfomation": {
+      "fatherHometown": "전라",
+      "motherHometown": "전라"
+    }
+  }
+}

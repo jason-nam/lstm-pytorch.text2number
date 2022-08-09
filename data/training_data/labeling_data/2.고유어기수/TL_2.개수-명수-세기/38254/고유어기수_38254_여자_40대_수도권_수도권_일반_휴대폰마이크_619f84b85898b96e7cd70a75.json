@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "619f84b85898b96e7cd70a75",
+    "recordedDate": "20211125",
+    "recordedStart": "21:42:48",
+    "fileName": "고유어기수_38254_여자_40대_수도권_수도권_일반_휴대폰마이크_619f84b85898b96e7cd70a75.wav",
+    "filePath": "WAV/고유어기수/개수-명수-세기/38254",
+    "recordedTime": 7.4,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "38254",
+    "scriptITN": "아이들 방에는 미니 티슈를 주로 놓는데, 카카오 미니티슈가 품절이라 다른 브랜드로 2개만 샀다.",
+    "scriptTN": "아이들 방에는 미니 티슈를 주로 놓는데, 카카오 미니티슈가 품절이라 다른 브랜드로 [두 개]만 샀다.",
+    "scriptNumberWord": "2개",
+    "patternTheme": "개수(세기)/명수(세기)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d527892a554e0889042c72",
+    "sex": "여자",
+    "generation": "40대",
+    "residence": "수도권",
+    "dialect": "아니오",
+    "dialectRegion": "수도권",
+    "areaInfomation": {
+      "fatherHometown": "경상",
+      "motherHometown": "제주"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61963e8d406842cc192f9b99",
+    "recordedDate": "20211118",
+    "recordedStart": "20:52:46",
+    "fileName": "고유어서수_100433_여자_30대_수도권_경상_일반_유선마이크_61963e8d406842cc192f9b99.wav",
+    "filePath": "WAV/고유어서수/부정수/100433",
+    "recordedTime": 6.03,
+    "recordedQuality": "정상",
+    "recordedDevice": "유선 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "100433",
+    "scriptITN": "3월 29일에 영어 스피치 대회를 마치고 선생님이 내가 한두째는 되겠다 했다.",
+    "scriptTN": "[삼 월 이십 구 일]에 영어 스피치 대회를 마치고 선생님이 내가 [한두 째]는 되겠다 했다.",
+    "scriptNumberWord": "3월 29일; 한두째",
+    "patternTheme": "부정수"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278b2a554e08890431ff",
+    "sex": "여자",
+    "generation": "30대",
+    "residence": "수도권",
+    "dialect": "아니오",
+    "dialectRegion": "경상",
+    "areaInfomation": {
+      "fatherHometown": "수도권",
+      "motherHometown": "수도권"
+    }
+  }
+}

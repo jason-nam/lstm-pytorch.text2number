@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61399061519ff47ff6cb4bd4",
+    "recordedDate": "20210909",
+    "recordedStart": "13:41:11",
+    "fileName": "개인고유번호_3954_여자_50대_전라_전라_일반_휴대폰마이크_61399061519ff47ff6cb4bd4.wav",
+    "filePath": "WAV/개인고유번호/이메일주소-아이디/3954",
+    "recordedTime": 11.12,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "기타",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "3954",
+    "scriptITN": "서류전형 마감은 오는 12일까지고 보내실 메일 주소는 PJS0023@test.com입니다.",
+    "scriptTN": "서류전형 마감은 오는 [십 이 일]까지고 보내실 메일 주소는 [피 제이 에스 공 공 이 삼] 골뱅이 테스트 닷 컴입니다.",
+    "scriptNumberWord": "12일; PJS0023",
+    "patternTheme": "이메일주소/아이디"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278a2a554e0889042d73",
+    "sex": "여자",
+    "generation": "50대",
+    "residence": "전라",
+    "dialect": "아니오",
+    "dialectRegion": "전라",
+    "areaInfomation": {
+      "fatherHometown": "전라",
+      "motherHometown": "전라"
+    }
+  }
+}

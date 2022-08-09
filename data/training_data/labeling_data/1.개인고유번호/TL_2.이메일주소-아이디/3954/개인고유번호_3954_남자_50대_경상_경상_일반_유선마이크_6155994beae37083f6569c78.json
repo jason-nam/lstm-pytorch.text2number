@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "6155994beae37083f6569c78",
+    "recordedDate": "20210930",
+    "recordedStart": "20:02:37",
+    "fileName": "개인고유번호_3954_남자_50대_경상_경상_일반_유선마이크_6155994beae37083f6569c78.wav",
+    "filePath": "WAV/개인고유번호/이메일주소-아이디/3954",
+    "recordedTime": 10.06,
+    "recordedQuality": "정상",
+    "recordedDevice": "유선 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "3954",
+    "scriptITN": "서류전형 마감은 오는 12일까지고 보내실 메일 주소는 PJS0023@test.com입니다.",
+    "scriptTN": "서류전형 마감은 오는 [십 이 일]까지고 보내실 메일 주소는 [피 제이 에스 공 공 이 삼] 골뱅이 테스트 닷 컴입니다.",
+    "scriptNumberWord": "12일; PJS0023",
+    "patternTheme": "이메일주소/아이디"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d527892a554e0889042d1f",
+    "sex": "남자",
+    "generation": "50대",
+    "residence": "경상",
+    "dialect": "아니오",
+    "dialectRegion": "경상",
+    "areaInfomation": {
+      "fatherHometown": "경상",
+      "motherHometown": "경상"
+    }
+  }
+}

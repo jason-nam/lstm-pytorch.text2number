@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "6175f7caa457e25f4fd76a30",
+    "recordedDate": "20211026",
+    "recordedStart": "00:35:32",
+    "fileName": "사이즈_60749_여자_30대_강원_강원_일반_휴대폰마이크_6175f7caa457e25f4fd76a30.wav",
+    "filePath": "WAV/사이즈/치수-사이즈/60749",
+    "recordedTime": 7.88,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "60749",
+    "scriptITN": "우리 남편은 32~34사이즈 바지를 입는데, 사이즈 표에 나온 길이 중 뭐로 해야 하나요?",
+    "scriptTN": "우리 남편은 [삼십 이 에서 삼십 사 사이즈] 바지를 입는데, 사이즈 표에 나온 길이 중 뭐로 해야 하나요?",
+    "scriptNumberWord": "32~34사이즈",
+    "patternTheme": "치수(사이즈)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278a2a554e0889042e5c",
+    "sex": "여자",
+    "generation": "30대",
+    "residence": "강원",
+    "dialect": "아니오",
+    "dialectRegion": "강원",
+    "areaInfomation": {
+      "fatherHometown": "강원",
+      "motherHometown": "강원"
+    }
+  }
+}

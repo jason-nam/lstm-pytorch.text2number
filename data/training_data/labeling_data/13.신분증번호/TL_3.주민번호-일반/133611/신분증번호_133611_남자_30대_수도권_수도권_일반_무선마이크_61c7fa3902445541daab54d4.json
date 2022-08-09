@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61c7fa3902445541daab54d4",
+    "recordedDate": "20211226",
+    "recordedStart": "14:14:35",
+    "fileName": "신분증번호_133611_남자_30대_수도권_수도권_일반_무선마이크_61c7fa3902445541daab54d4.wav",
+    "filePath": "WAV/신분증번호/주민번호-일반/133611",
+    "recordedTime": 11.89,
+    "recordedQuality": "정상",
+    "recordedDevice": "무선 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "133611",
+    "scriptITN": "할머니는 고궁 매표소에 530010-4761885 주민등록증을 보여 주시고는 무료로 고궁 관람을 하셨다.",
+    "scriptTN": "할머니는 고궁 매표소에 [오 삼 공 공 일 공 다시 사 칠 육 일 팔 팔 오] 주민등록증을 보여 주시고는 무료로 고궁 관람을 하셨다.",
+    "scriptNumberWord": "530010-4761885",
+    "patternTheme": "주민번호(일반)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d527892a554e0889042a34",
+    "sex": "남자",
+    "generation": "30대",
+    "residence": "수도권",
+    "dialect": "아니오",
+    "dialectRegion": "수도권",
+    "areaInfomation": {
+      "fatherHometown": "수도권",
+      "motherHometown": "경상"
+    }
+  }
+}

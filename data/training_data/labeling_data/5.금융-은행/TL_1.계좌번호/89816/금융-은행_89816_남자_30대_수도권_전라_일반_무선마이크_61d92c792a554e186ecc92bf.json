@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61d92c792a554e186ecc92bf",
+    "recordedDate": "20211027",
+    "recordedStart": "12:17:02",
+    "fileName": "금융-은행_89816_남자_30대_수도권_전라_일반_무선마이크_61d92c792a554e186ecc92bf.wav",
+    "filePath": "WAV/금융-은행/계좌번호/89816",
+    "recordedTime": 7.55,
+    "recordedQuality": "정상",
+    "recordedDevice": "무선 마이크",
+    "recordedDeviceName": "기타",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "89816",
+    "scriptITN": "금요일에, 연이율 0.1%인 기업은행 4739-11701 입출금통장을 개설하였습니다.",
+    "scriptTN": "금요일에, 연이율 [영 점 일 퍼센트]인 기업은행 [사 칠 삼 구 에 일 일 칠 공 일] 입출금통장을 개설하였습니다.",
+    "scriptNumberWord": "0.1%; 4739-11701",
+    "patternTheme": "계좌번호"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d92c832a554e186ed08573",
+    "sex": "남자",
+    "generation": "30대",
+    "residence": "수도권",
+    "dialect": "예",
+    "dialectRegion": "전라",
+    "areaInfomation": {
+      "fatherHometown": "전라",
+      "motherHometown": "전라"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61d92c802a554e186ed0484b",
+    "recordedDate": "20211118",
+    "recordedStart": "01:15:52",
+    "fileName": "나이-생년월일_75895_남자_40대_수도권_수도권_일반_무선마이크_61d92c802a554e186ed0484b.wav",
+    "filePath": "WAV/나이-생년월일/생년월일/75895",
+    "recordedTime": 9.95,
+    "recordedQuality": "정상",
+    "recordedDevice": "무선 마이크",
+    "recordedDeviceName": "기타",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "75895",
+    "scriptITN": "한 방송에서 송은이의 생년월일을 퀴즈로 냈는데, 1973년 1월 4일생이라고 송은이 본인이 직접 밝혔다.",
+    "scriptTN": "한 방송에서 송은이의 생년월일을 퀴즈로 냈는데, [천 구백 칠십 삼 년 일 월 사 일생]이라고 송은이 본인이 직접 밝혔다.",
+    "scriptNumberWord": "1973년 1월 4일생",
+    "patternTheme": "생년월일"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d92c832a554e186ed085b1",
+    "sex": "남자",
+    "generation": "40대",
+    "residence": "수도권",
+    "dialect": "아니오",
+    "dialectRegion": "수도권",
+    "areaInfomation": {
+      "fatherHometown": "수도권",
+      "motherHometown": "수도권"
+    }
+  }
+}

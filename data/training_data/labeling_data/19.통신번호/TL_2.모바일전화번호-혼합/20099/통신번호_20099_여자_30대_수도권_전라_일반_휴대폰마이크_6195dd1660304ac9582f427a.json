@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "6195dd1660304ac9582f427a",
+    "recordedDate": "20211118",
+    "recordedStart": "13:57:08",
+    "fileName": "통신번호_20099_여자_30대_수도권_전라_일반_휴대폰마이크_6195dd1660304ac9582f427a.wav",
+    "filePath": "WAV/통신번호/모바일전화번호-혼합/20099",
+    "recordedTime": 9.3,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "20099",
+    "scriptITN": "015-1234-9999 번호는 24시간 받을 수 있는 긴급 전화니까 언제든지 연락해 주세요.",
+    "scriptTN": "[공 일 오 에 하나 둘 셋 넷 에 구 구 구 구] 번호는 [이십 사 시간] 받을 수 있는 긴급 전화니까 언제든지 연락해 주세요.",
+    "scriptNumberWord": "015-1234-9999; 24시간",
+    "patternTheme": "모바일전화번호(혼합)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d527892a554e0889042b05",
+    "sex": "여자",
+    "generation": "30대",
+    "residence": "수도권",
+    "dialect": "예",
+    "dialectRegion": "전라",
+    "areaInfomation": {
+      "fatherHometown": "전라",
+      "motherHometown": "전라"
+    }
+  }
+}

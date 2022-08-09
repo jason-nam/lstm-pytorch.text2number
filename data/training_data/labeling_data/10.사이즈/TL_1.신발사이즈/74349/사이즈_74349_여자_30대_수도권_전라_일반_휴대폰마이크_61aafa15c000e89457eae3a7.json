@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61aafa15c000e89457eae3a7",
+    "recordedDate": "20211204",
+    "recordedStart": "14:18:16",
+    "fileName": "사이즈_74349_여자_30대_수도권_전라_일반_휴대폰마이크_61aafa15c000e89457eae3a7.wav",
+    "filePath": "WAV/사이즈/신발사이즈/74349",
+    "recordedTime": 7.86,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "74349",
+    "scriptITN": "지난 19일 한 프로그램에서 박명수는 이다희에게 발이 커 보인다며 발 사이즈가 260이냐고 물었다.",
+    "scriptTN": "지난 [십 구 일] 한 프로그램에서 박명수는 이다희에게 발이 커 보인다며 발 사이즈가 [이백 육십]이냐고 물었다.",
+    "scriptNumberWord": "19일; 260",
+    "patternTheme": "신발사이즈"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d527892a554e0889042b05",
+    "sex": "여자",
+    "generation": "30대",
+    "residence": "수도권",
+    "dialect": "예",
+    "dialectRegion": "전라",
+    "areaInfomation": {
+      "fatherHometown": "전라",
+      "motherHometown": "전라"
+    }
+  }
+}

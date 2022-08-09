@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61666cdf26b89da0913976c2",
+    "recordedDate": "20211013",
+    "recordedStart": "14:21:39",
+    "fileName": "고유어기수_53759_여자_30대_수도권_전라_일반_유선마이크_61666cdf26b89da0913976c2.wav",
+    "filePath": "WAV/고유어기수/살-나이/53759",
+    "recordedTime": 8.82,
+    "recordedQuality": "정상",
+    "recordedDevice": "유선 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "53759",
+    "scriptITN": "올해 태어난 신생아가 18살 즈음에 부담해야 할 1인당 국가 빚이 1억 원이 넘을 거란 전망이다.",
+    "scriptTN": "올해 태어난 신생아가 [열 여덟 살] 즈음에 부담해야 할 [일 인당] 국가 빚이 [일억 원]이 넘을 거란 전망이다.",
+    "scriptNumberWord": "18살; 1인당; 1억 원",
+    "patternTheme": "살(나이)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d527892a554e0889042b05",
+    "sex": "여자",
+    "generation": "30대",
+    "residence": "수도권",
+    "dialect": "예",
+    "dialectRegion": "전라",
+    "areaInfomation": {
+      "fatherHometown": "전라",
+      "motherHometown": "전라"
+    }
+  }
+}

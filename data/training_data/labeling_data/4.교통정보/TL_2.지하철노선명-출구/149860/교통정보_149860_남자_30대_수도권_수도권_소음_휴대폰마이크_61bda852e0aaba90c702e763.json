@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61bda852e0aaba90c702e763",
+    "recordedDate": "20211218",
+    "recordedStart": "18:22:33",
+    "fileName": "교통정보_149860_남자_30대_수도권_수도권_소음_휴대폰마이크_61bda852e0aaba90c702e763.wav",
+    "filePath": "WAV/교통정보/지하철노선명-출구/149860",
+    "recordedTime": 5.86,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "소음"
+  },
+  "script": {
+    "scriptId": "149860",
+    "scriptITN": "1호선을 타고 시청역에 내려서 2번 출구로 나오면 도보로 5분 거리에 위치해 있다.",
+    "scriptTN": "[일 호선]을 타고 시청역에 내려서 [이 번 출구]로 나오면 도보로 [오 분] 거리에 위치해 있다.",
+    "scriptNumberWord": "1호선; 2번 출구; 5분",
+    "patternTheme": "지하철노선명(출구)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278c2a554e088904339f",
+    "sex": "남자",
+    "generation": "30대",
+    "residence": "수도권",
+    "dialect": "아니오",
+    "dialectRegion": "수도권",
+    "areaInfomation": {
+      "fatherHometown": "수도권",
+      "motherHometown": "수도권"
+    }
+  }
+}

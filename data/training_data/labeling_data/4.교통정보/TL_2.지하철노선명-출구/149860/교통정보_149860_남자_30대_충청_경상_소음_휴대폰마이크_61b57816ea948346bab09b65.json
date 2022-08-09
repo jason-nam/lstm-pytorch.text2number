@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61b57816ea948346bab09b65",
+    "recordedDate": "20211212",
+    "recordedStart": "13:18:31",
+    "fileName": "교통정보_149860_남자_30대_충청_경상_소음_휴대폰마이크_61b57816ea948346bab09b65.wav",
+    "filePath": "WAV/교통정보/지하철노선명-출구/149860",
+    "recordedTime": 7.36,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "소음"
+  },
+  "script": {
+    "scriptId": "149860",
+    "scriptITN": "1호선을 타고 시청역에 내려서 2번 출구로 나오면 도보로 5분 거리에 위치해 있다.",
+    "scriptTN": "[일 호선]을 타고 시청역에 내려서 [이 번 출구]로 나오면 도보로 [오 분] 거리에 위치해 있다.",
+    "scriptNumberWord": "1호선; 2번 출구; 5분",
+    "patternTheme": "지하철노선명(출구)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278c2a554e088904338a",
+    "sex": "남자",
+    "generation": "30대",
+    "residence": "충청",
+    "dialect": "예",
+    "dialectRegion": "경상",
+    "areaInfomation": {
+      "fatherHometown": "경상",
+      "motherHometown": "경상"
+    }
+  }
+}

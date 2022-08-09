@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61caa442cf7e28fc2e50ee40",
+    "recordedDate": "20211228",
+    "recordedStart": "14:44:43",
+    "fileName": "사투리_125310_여자_40대_경상_경상_일반_휴대폰마이크_61caa442cf7e28fc2e50ee40.wav",
+    "filePath": "WAV/사투리/사투리/125310",
+    "recordedTime": 5.84,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "125310",
+    "scriptITN": "우리 집 바로 앞에 산이 하나 있어서 친구들 너이 모여 매일 등산하고 있다.",
+    "scriptTN": "우리 집 바로 앞에 산이 [하나] 있어서 친구들 [너이] 모여 매일 등산하고 있다.",
+    "scriptNumberWord": "하나; 너이",
+    "patternTheme": "사투리"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278d2a554e0889043637",
+    "sex": "여자",
+    "generation": "40대",
+    "residence": "경상",
+    "dialect": "예",
+    "dialectRegion": "경상",
+    "areaInfomation": {
+      "fatherHometown": "경상",
+      "motherHometown": "경상"
+    }
+  }
+}

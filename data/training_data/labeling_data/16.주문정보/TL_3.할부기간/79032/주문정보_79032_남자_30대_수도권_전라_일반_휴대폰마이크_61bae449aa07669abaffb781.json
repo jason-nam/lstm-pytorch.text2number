@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61bae449aa07669abaffb781",
+    "recordedDate": "20211216",
+    "recordedStart": "16:08:25",
+    "fileName": "주문정보_79032_남자_30대_수도권_전라_일반_휴대폰마이크_61bae449aa07669abaffb781.wav",
+    "filePath": "WAV/주문정보/할부기간/79032",
+    "recordedTime": 8.26,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "애플",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "79032",
+    "scriptITN": "12개월 카드 무이자 할부 프로모션을 활용해서 313L 김치냉장고를 구매했다.",
+    "scriptTN": "[십 이 개월] 카드 무이자 할부 프로모션을 활용해서 [삼백 십 삼 리터] 김치냉장고를 구매했다.",
+    "scriptNumberWord": "12개월; 313L",
+    "patternTheme": "할부기간"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278c2a554e088904337d",
+    "sex": "남자",
+    "generation": "30대",
+    "residence": "수도권",
+    "dialect": "아니오",
+    "dialectRegion": "전라",
+    "areaInfomation": {
+      "fatherHometown": "전라",
+      "motherHometown": "전라"
+    }
+  }
+}

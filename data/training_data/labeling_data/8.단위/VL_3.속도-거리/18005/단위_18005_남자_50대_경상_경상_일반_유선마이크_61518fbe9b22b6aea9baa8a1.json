@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61518fbe9b22b6aea9baa8a1",
+    "recordedDate": "20210927",
+    "recordedStart": "18:32:48",
+    "fileName": "단위_18005_남자_50대_경상_경상_일반_유선마이크_61518fbe9b22b6aea9baa8a1.wav",
+    "filePath": "WAV/단위/속도-거리/18005",
+    "recordedTime": 8.14,
+    "recordedQuality": "정상",
+    "recordedDevice": "유선 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "18005",
+    "scriptITN": "1999년에 발견된 '베누'는 시속 10만 km의 속도로 태양 궤도를 회전하는 소행성이다.",
+    "scriptTN": "[천 구백 구십 구 년]에 발견된 '베누'는 시속 [십만 킬로미터]의 속도로 태양 궤도를 회전하는 소행성이다.",
+    "scriptNumberWord": "1999년; 10만 km",
+    "patternTheme": "속도/거리"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d527892a554e0889042d25",
+    "sex": "남자",
+    "generation": "50대",
+    "residence": "경상",
+    "dialect": "예",
+    "dialectRegion": "경상",
+    "areaInfomation": {
+      "fatherHometown": "경상",
+      "motherHometown": "경상"
+    }
+  }
+}

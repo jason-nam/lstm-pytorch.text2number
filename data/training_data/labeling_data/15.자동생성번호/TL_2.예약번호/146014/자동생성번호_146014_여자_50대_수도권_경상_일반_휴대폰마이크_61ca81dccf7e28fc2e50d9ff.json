@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61ca81dccf7e28fc2e50d9ff",
+    "recordedDate": "20211228",
+    "recordedStart": "12:17:50",
+    "fileName": "자동생성번호_146014_여자_50대_수도권_경상_일반_휴대폰마이크_61ca81dccf7e28fc2e50d9ff.wav",
+    "filePath": "WAV/자동생성번호/예약번호/146014",
+    "recordedTime": 10.08,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "애플",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "146014",
+    "scriptITN": "예약번호 464613번으로 예약된 해운대 엘시티 레지던스는 최대 8명까지 투숙 가능해요.",
+    "scriptTN": "예약번호 [사 육 사 육 일 삼 번]으로 예약된 해운대 엘시티 레지던스는 최대 [여덟 명]까지 투숙 가능해요.",
+    "scriptNumberWord": "464613번; 8명",
+    "patternTheme": "예약번호"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278d2a554e088904366b",
+    "sex": "여자",
+    "generation": "50대",
+    "residence": "수도권",
+    "dialect": "예",
+    "dialectRegion": "경상",
+    "areaInfomation": {
+      "fatherHometown": "경상",
+      "motherHometown": "제주"
+    }
+  }
+}

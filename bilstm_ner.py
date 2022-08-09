@@ -1,11 +1,22 @@
-from pickle import DICT
-from turtle import pos
-import torch
-import torch.autograd as autograd
-import torch.nn as nn
-import torch.optim as optim
 import json
 import time
+
+from requests import post
+
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import torch.autograd as autograd
+import torch.multiprocessing as mp
+
+DATA_PATH = "./data/training_data/training_data.json"
+MODEL_PATH = "./data/model/ner/"
+DICT_PATH = "./resource/vocab.json"
+
+START_TAG = "<START>"
+STOP_TAG = "<STOP>"
+EMBEDDING_DIM = 5
+HIDDEN_DIM = 4
 
 torch.manual_seed(1)
 
@@ -173,19 +184,12 @@ class BiLSTM_CRF(nn.Module):
         score, tag_seq = self._viterbi_decode(lstm_feats)
         return score, tag_seq
 
-DATA_PATH = "./data/model/ner/"
-DICT_PATH = "./resource/vocab.json"
-
-START_TAG = "<START>"
-STOP_TAG = "<STOP>"
-EMBEDDING_DIM = 5
-HIDDEN_DIM = 4
-
 def dict_load(training_data):
-
+    # Load vocab dictionary from vocab.json file.
     with open(DICT_PATH, encoding="utf-8") as file:
         word_to_ix = json.load(file)
 
+    # Account for Hangeul letters not present in vocab dictionary.
     for sentence, tags in training_data:
         for word in sentence:
             if word not in word_to_ix:
@@ -194,17 +198,17 @@ def dict_load(training_data):
     return word_to_ix
 
 def model_load():
-    """encoder"""
-    model = torch.load(DATA_PATH + "model.pt")
+    # Load pre-trained model from model.pt file.
+    model = torch.load(MODEL_PATH + "model.pt")
     model.eval()
     return model
 
-def train(training_data, word_to_ix, tag_to_ix):
-    model = BiLSTM_CRF(len(word_to_ix), tag_to_ix, EMBEDDING_DIM, HIDDEN_DIM)
+def train(model, training_data, word_to_ix, tag_to_ix):
+    # model = BiLSTM_CRF(len(word_to_ix), tag_to_ix, EMBEDDING_DIM, HIDDEN_DIM)
     optimizer = optim.SGD(model.parameters(), lr=0.01, weight_decay=1e-4)
 
     # Make sure prepare_sequence from earlier in the LSTM section is loaded
-    for epoch in range(300):  # again, normally you would NOT do 300 epochs, it is toy data
+    for epoch in range(15):  # again, normally you would NOT do 300 epochs, it is toy data
         for sentence, tags in training_data:
             # Step 1. Remember that Pytorch accumulates gradients.
             # We need to clear them out before each instance
@@ -223,38 +227,30 @@ def train(training_data, word_to_ix, tag_to_ix):
             loss.backward()
             optimizer.step()
 
-    torch.save(model, DATA_PATH + 'model.pt')
+    # torch.save(model, MODEL_PATH + 'model.pt')
 
 def main():
-    # # Make up some training data
-    # training_data = [(
-    #     list("우리 집 주소는 삼십육번지이다."),
-    #     # "O O S O S O O O S B I I O O O O O".split(),
-    #     "O O O O O O O O O B I I O O O O O".split()
-    # ), (
-    #     list("나는 이월에 죽었어."),
-    #     # "O O S B I O S O O O O".split(),
-    #     "O O O B I O O O O O O".split()
-    # )]
+    # Load training data from training_data.json file.
+    with open(DATA_PATH, encoding="utf8") as file:
+        training_data = json.load(file)
 
-    with open("./data/training_data/original.txt", encoding="utf-8") as file:
-        sent = file.read().splitlines()
+    """
+    # Make up some training data
+    >>> training_data = [(
+            list("우리 집 주소는 삼십육번지이다."),
+            # "O O S O S O O O S B I I O O O O O".split(),
+            "O O O O O O O O O B I I O O O O O".split()
+        ), (
+            list("나는 이월에 죽었어."),
+            # "O O S B I O S O O O O".split(),
+            "O O O B I O O O O O O".split()
+        )]
+    """
 
-    with open("./data/training_data/bio.txt") as file:
-        tag = file.read().splitlines()
-
-    training_data = list(map(lambda s, t: (list(s), t.split()), sent, tag))
-
+    # Get Hangeul vocab dictionary
     word_to_ix = dict_load(training_data=training_data)
 
-    # word_to_ix = {}
-    # for sentence, tags in training_data:
-    #     for word in sentence:
-    #         if word not in word_to_ix:
-    #             word_to_ix[word] = len(word_to_ix)
-
-    # print(word_to_ix)
-
+    # Define tags for named entities.
     tag_to_ix = {
         "B": 0, # Begin tag
         "I": 1, # Inside tag
@@ -264,26 +260,56 @@ def main():
         STOP_TAG: 4
     }
 
-    # # Check predictions before training
-    # with torch.no_grad():
-    #     precheck_sent = prepare_sequence(training_data[0][0], word_to_ix)
-    #     precheck_tags = torch.tensor([tag_to_ix[t] for t in training_data[0][1]], dtype=torch.long)
-    #     print("Predictions before training: ", model(precheck_sent))
+    """
+    # Check predictions before training
+    >>> with torch.no_grad():
+    >>>     precheck_sent = prepare_sequence(training_data[0][0], word_to_ix)
+    >>>     precheck_tags = torch.tensor([tag_to_ix[t] for t in training_data[0][1]], dtype=torch.long)
+    >>>     print("Predictions before training: ", model(precheck_sent))
+    """
 
     try:
-        model = model_load()
+        # Try to load pre-trained model.
+        model = model_load() 
         print("model.pt found.")
+
     except:
-        print("model.pt not found. Training.")
-        train(training_data=training_data, word_to_ix=word_to_ix, tag_to_ix=tag_to_ix)
+        # If pre-trained model is not found, train BiLSTM_CRF model with multithreading processes.
+        print("model.pt not found. Training.") 
+        
+        num_processes = 4 # Pre-defined multithread count.
+
+        k, m = divmod(len(training_data), num_processes)
+        fragmented_training_data = list(training_data[i*k+min(i, m):(i+1)*k+min(i+1, m)] for i in range(num_processes))
+
+        model = BiLSTM_CRF(len(word_to_ix), tag_to_ix, EMBEDDING_DIM, HIDDEN_DIM)
+        # NOTE: this is required for the ``fork`` method to work
+        model.share_memory()
+        processes = []
+
+        for rank in range(num_processes):
+            p = mp.Process(target=train, args=(model, fragmented_training_data[rank], word_to_ix, tag_to_ix))
+            p.start()
+            processes.append(p)
+        for p in processes:
+            p.join()
+
+        # Save trained model as model.pt.
+        torch.save(model, MODEL_PATH + 'model.pt')
+
+        # Load trained model from model.pt.
         model = model_load()
 
-    # Check predictions after training
+        """
+        # Training method for BiLSTM_CRF model.
+        >>> train(training_data=training_data, word_to_ix=word_to_ix, tag_to_ix=tag_to_ix)
+        """
+
+    # Check trained data predictions.
     for sentence, tags in training_data:
         with torch.no_grad():
             precheck_sent = prepare_sequence(sentence, word_to_ix)
             postcheck_tags = model(precheck_sent)[1]
-
             infer_sentence = ""
             for i, c in enumerate(sentence):
                 if postcheck_tags[i] == 0:
@@ -293,32 +319,66 @@ def main():
                 else:
                     infer_sentence = infer_sentence + c
                     
-            # print("Predictions after training: ", infer_sentence, postcheck_tags)
-        # We got it!
+            print("Predictions after training: ", infer_sentence)
 
-    # Check predictions for non training data
-
+    # Test data for inference.
     test_data = [
         list("넌 누구니? 나는 이천년 일월 일일에 태어난 사람이야."),
         list("사과 다섯개 먹고싶어 그런데 그냥 여섯 개 먹었다."),
+        list("이 이전에 저한테 배당되기 이전에 센터장하고 철인 삼 종 협회장하고 회의를 통해서"),
+        list("이런 인권위라든지 또 피해자 분리라든지 이런 부분에 협의가 있었던 걸로 알고 있습니다."),
     ]
 
-    for sentence in test_data:
+    # Check non trained data predictions.
+    for sent in test_data:
         start_time = time.time()
         with torch.no_grad():
-            precheck_sent = prepare_sequence(sentence, word_to_ix)
-            postcheck_tags = model(precheck_sent)[1]
-
-            infer_sentence = ""
-            for i, c in enumerate(sentence):
-                if postcheck_tags[i] == 0:
-                    infer_sentence = infer_sentence + "[" + c
-                elif not i == 0 and postcheck_tags[i] == 2 and postcheck_tags[i-1] == 1:
-                    infer_sentence = infer_sentence + "]" + c
+            precheck_sent = prepare_sequence(sent, word_to_ix)
+            postcheck_tag = model(precheck_sent)[1]
+            infer_sent = ""
+            for i, c in enumerate(sent):
+                if postcheck_tag[i] == 0:
+                    infer_sent = infer_sent + "[" + c
+                elif not i == 0 and postcheck_tag[i] == 2 and postcheck_tag[i-1] == 1:
+                    infer_sent = infer_sent + "]" + c
                 else:
-                    infer_sentence = infer_sentence + c
+                    infer_sent = infer_sent + c
             print("--- %s seconds ---" % (time.time() - start_time))
-            print("Predictions after training: ", infer_sentence, postcheck_tags)
+            print("Predictions after training: ", infer_sent, postcheck_tag)
 
 if __name__ == "__main__":
     main()
+
+    """
+    import concurrent.futures
+
+    with open(DATA_PATH, encoding="utf8") as file:
+        training_data = json.load(file)
+
+    k, m = divmod(len(training_data), 5)
+    training_data = list(training_data[i*k+min(i, m):(i+1)*k+min(i+1, m)] for i in range(5))
+
+    start = time.perf_counter()
+    threads = []
+    for i in range(10):
+        t = threading.Thread(target=main, args=(training_data[i]))
+        t.start()
+        threads.append(t)
+        
+    for thread in threads:
+        thread.join()
+    finish = time.perf_counter()
+ 
+    print(f'Finished in {round(finish-start, 2)} second(s)')
+
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        # Start the load operations and mark each future with its URL
+        future_to_main = {executor.submit(main, td): td for td in training_data}
+        for future in concurrent.futures.as_completed(future_to_main):
+            future_to_main[future]
+            try:
+                data = future.result()
+            except Exception as exc:
+                print('%r generated an exception: %s' % (exc))
+    """

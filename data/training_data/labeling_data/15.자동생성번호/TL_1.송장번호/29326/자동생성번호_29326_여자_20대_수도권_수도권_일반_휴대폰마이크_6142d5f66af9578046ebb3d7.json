@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "6142d5f66af9578046ebb3d7",
+    "recordedDate": "20210916",
+    "recordedStart": "14:28:21",
+    "fileName": "자동생성번호_29326_여자_20대_수도권_수도권_일반_휴대폰마이크_6142d5f66af9578046ebb3d7.wav",
+    "filePath": "WAV/자동생성번호/송장번호/29326",
+    "recordedTime": 11.02,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "애플",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "29326",
+    "scriptITN": "브이넥 카디건이 504734358601로 배송 출발했다고 한진택배 기사님이 문자로 연락을 주셨습니다.",
+    "scriptTN": "브이넥 카디건이 [오 공 사 칠 삼 사 삼 오 팔 육 공 일]로 배송 출발했다고 한진택배 기사님이 문자로 연락을 주셨습니다.",
+    "scriptNumberWord": "504734358601",
+    "patternTheme": "송장번호"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d527892a554e08890429cf",
+    "sex": "여자",
+    "generation": "20대",
+    "residence": "수도권",
+    "dialect": "아니오",
+    "dialectRegion": "수도권",
+    "areaInfomation": {
+      "fatherHometown": "수도권",
+      "motherHometown": "수도권"
+    }
+  }
+}

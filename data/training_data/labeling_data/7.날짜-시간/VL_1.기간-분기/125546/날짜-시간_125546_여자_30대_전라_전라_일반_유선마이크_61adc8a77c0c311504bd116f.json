@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61adc8a77c0c311504bd116f",
+    "recordedDate": "20211206",
+    "recordedStart": "17:24:46",
+    "fileName": "날짜-시간_125546_여자_30대_전라_전라_일반_유선마이크_61adc8a77c0c311504bd116f.wav",
+    "filePath": "WAV/날짜-시간/기간-분기/125546",
+    "recordedTime": 5.44,
+    "recordedQuality": "정상",
+    "recordedDevice": "유선 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "125546",
+    "scriptITN": "농지를 담보로 연금을 지급해 주는 정부의 '농지연금제도'가 도입된 지 10년이 됐습니다.",
+    "scriptTN": "농지를 담보로 연금을 지급해 주는 정부의 '농지연금제도'가 도입된 지 [십 년]이 됐습니다.",
+    "scriptNumberWord": "10년",
+    "patternTheme": "기간/분기"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278b2a554e08890430f5",
+    "sex": "여자",
+    "generation": "30대",
+    "residence": "전라",
+    "dialect": "예",
+    "dialectRegion": "전라",
+    "areaInfomation": {
+      "fatherHometown": "전라",
+      "motherHometown": "전라"
+    }
+  }
+}

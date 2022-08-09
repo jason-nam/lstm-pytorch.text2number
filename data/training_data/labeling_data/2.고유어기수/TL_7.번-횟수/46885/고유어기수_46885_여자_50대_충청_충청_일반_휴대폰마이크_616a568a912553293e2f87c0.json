@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "616a568a912553293e2f87c0",
+    "recordedDate": "20211016",
+    "recordedStart": "13:35:23",
+    "fileName": "고유어기수_46885_여자_50대_충청_충청_일반_휴대폰마이크_616a568a912553293e2f87c0.wav",
+    "filePath": "WAV/고유어기수/번-횟수/46885",
+    "recordedTime": 7.38,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "46885",
+    "scriptITN": "신신파스 아렉스는 국내 최초로 냉과 온, 두 번의 찜질 기능을 하나에 담아낸 파스라고 한다.",
+    "scriptTN": "신신파스 아렉스는 국내 최초로 냉과 온, [두 번]의 찜질 기능을 [하나]에 담아낸 파스라고 한다.",
+    "scriptNumberWord": "두 번; 하나",
+    "patternTheme": "번(횟수)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278b2a554e0889043181",
+    "sex": "여자",
+    "generation": "50대",
+    "residence": "충청",
+    "dialect": "아니오",
+    "dialectRegion": "충청",
+    "areaInfomation": {
+      "fatherHometown": "충청",
+      "motherHometown": "충청"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61c5dcdd02a2a5487ebaec10",
+    "recordedDate": "20211224",
+    "recordedStart": "23:44:45",
+    "fileName": "스포츠_127478_여자_50대_수도권_경상_일반_휴대폰마이크_61c5dcdd02a2a5487ebaec10.wav",
+    "filePath": "WAV/스포츠/회-라운드-쿼터/127478",
+    "recordedTime": 11.04,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "애플",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "127478",
+    "scriptITN": "1회 초 2사 만루에서 두산 선발 박종기가 NC 노진혁에게 주자 싹쓸이 3타점 2루타를 허용했다.",
+    "scriptTN": "[일 회] 초 [이 사] 만루에서 두산 선발 박종기가 엔씨 노진혁에게 주자 싹쓸이 [삼 타점] [이 루타]를 허용했다.",
+    "scriptNumberWord": "1회; 2사; 3타점; 2루타",
+    "patternTheme": "회/라운드/쿼터"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278d2a554e088904366b",
+    "sex": "여자",
+    "generation": "50대",
+    "residence": "수도권",
+    "dialect": "예",
+    "dialectRegion": "경상",
+    "areaInfomation": {
+      "fatherHometown": "경상",
+      "motherHometown": "제주"
+    }
+  }
+}

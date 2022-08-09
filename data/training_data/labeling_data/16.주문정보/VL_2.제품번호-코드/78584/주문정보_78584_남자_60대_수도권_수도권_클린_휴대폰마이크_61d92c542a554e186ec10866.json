@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61d92c542a554e186ec10866",
+    "recordedDate": "20211103",
+    "recordedStart": "10:18:32",
+    "fileName": "주문정보_78584_남자_60대_수도권_수도권_클린_휴대폰마이크_61d92c542a554e186ec10866.wav",
+    "filePath": "WAV/주문정보/제품번호-코드/78584",
+    "recordedTime": 8.45,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "기타",
+    "recordedEnv": "클린"
+  },
+  "script": {
+    "scriptId": "78584",
+    "scriptITN": "제품 번호 PU5298 데님 모자는 내가 20년 전 대학생 시절에 쓴 모자랑 디자인이 똑같네.",
+    "scriptTN": "제품 번호 [피 유 오 이 구 팔] 데님 모자는 내가 [이십 년] 전 대학생 시절에 쓴 모자랑 디자인이 똑같네.",
+    "scriptNumberWord": "PU5298; 20년",
+    "patternTheme": "제품번호/코드"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d92c812a554e186ed082bf",
+    "sex": "남자",
+    "generation": "60대",
+    "residence": "수도권",
+    "dialect": "아니오",
+    "dialectRegion": "수도권",
+    "areaInfomation": {
+      "fatherHometown": "수도권",
+      "motherHometown": "수도권"
+    }
+  }
+}

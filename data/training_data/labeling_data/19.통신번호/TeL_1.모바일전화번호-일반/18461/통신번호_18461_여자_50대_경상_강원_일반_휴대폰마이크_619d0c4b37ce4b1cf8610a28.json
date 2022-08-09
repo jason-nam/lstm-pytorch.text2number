@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "619d0c4b37ce4b1cf8610a28",
+    "recordedDate": "20211124",
+    "recordedStart": "00:44:21",
+    "fileName": "통신번호_18461_여자_50대_경상_강원_일반_휴대폰마이크_619d0c4b37ce4b1cf8610a28.wav",
+    "filePath": "WAV/통신번호/모바일전화번호-일반/18461",
+    "recordedTime": 10.45,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "삼성",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "18461",
+    "scriptITN": "한때 사랑했던 사람의 핸드폰 번호 015-6123-5678번을 지워버렸다.",
+    "scriptTN": "한때 사랑했던 사람의 핸드폰 번호 [공 일 오 육 일 이 삼 오 육 칠 팔 번]을 지워버렸다.",
+    "scriptNumberWord": "015-6123-5678번",
+    "patternTheme": "모바일전화번호(일반)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278d2a554e08890435e9",
+    "sex": "여자",
+    "generation": "50대",
+    "residence": "경상",
+    "dialect": "아니오",
+    "dialectRegion": "강원",
+    "areaInfomation": {
+      "fatherHometown": "강원",
+      "motherHometown": "강원"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "recordedID": "61a02c582acf3be23ad6e931",
+    "recordedDate": "20211126",
+    "recordedStart": "09:37:53",
+    "fileName": "통신번호_20099_여자_30대_경상_경상_일반_휴대폰마이크_61a02c582acf3be23ad6e931.wav",
+    "filePath": "WAV/통신번호/모바일전화번호-혼합/20099",
+    "recordedTime": 10.33,
+    "recordedQuality": "정상",
+    "recordedDevice": "휴대폰 마이크",
+    "recordedDeviceName": "애플",
+    "recordedEnv": "일반"
+  },
+  "script": {
+    "scriptId": "20099",
+    "scriptITN": "015-1234-9999 번호는 24시간 받을 수 있는 긴급 전화니까 언제든지 연락해 주세요.",
+    "scriptTN": "[공 일 오 에 하나 둘 셋 넷 에 구 구 구 구] 번호는 [이십 사 시간] 받을 수 있는 긴급 전화니까 언제든지 연락해 주세요.",
+    "scriptNumberWord": "015-1234-9999; 24시간",
+    "patternTheme": "모바일전화번호(혼합)"
+  },
+  "recordPerson": {
+    "collectedID": "A1000001",
+    "recorderID": "61d5278e2a554e0889043d2b",
+    "sex": "여자",
+    "generation": "30대",
+    "residence": "경상",
+    "dialect": "예",
+    "dialectRegion": "경상",
+    "areaInfomation": {
+      "fatherHometown": "경상",
+      "motherHometown": "경상"
+    }
+  }
+}
